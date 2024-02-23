@@ -1,0 +1,81 @@
+body {
+  padding-left: 20px;
+  padding-top: 30px;
+}
+
+.main-cont {
+  display: flex;
+  flex-direction: row;
+  height: 100vh;
+}
+
+.navbar {
+  border: 1px solid grey;
+  border-radius: 3%;
+  width: 30%;
+  height: 80vh;
+  padding-top: 20px;
+}
+
+.home {
+  width: 68%;
+  float: right;
+  padding-left: 20px;
+}
+
+.image-cont {
+  display: flex;
+  gap: 5px;
+  flex-wrap: wrap;
+}
+
+.image {
+  width: 100px;
+  height: 120px;
+  overflow: hidden;
+}
+
+.image img {
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+}
+
+.annotation {
+  margin: 0;
+  padding: 0;
+}
+
+.className-list {
+  border: 1px solid grey;
+  padding: 2px;
+  width: 50%;
+  border-radius: 5px;
+  margin-bottom: 5px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.totlalImages {
+  position: fixed;
+  top: 0;
+  right: 30px;
+}
+
+.pagination-cont {
+  display: flex;
+  justify-content: center;
+  padding: 5px 20px;
+}
+
+.pagination {
+  background-color: rgba(128, 128, 128, 0.175);
+  border: none;
+  padding: 2px 6px;
+  border-radius: 50%;
+  margin-right: 5px;
+}
+
+.active {
+  background-color: yellow;
+}
